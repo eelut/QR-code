@@ -1,80 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+
 
 *{
-    margin:0px;
-    padding:0px;
-    box-sizing:border-box;
-}
-
-:root{
-    --white:hsl(0,0%,100%);
-    --light-gray:hsl(212,45%,89%);
-    --grayish-blue:hsl(220,15%,55%);
-    --dark-blue:hsl(218,44%,22%);
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
 }
 
 body{
-    font-family:"outfit",sans-serif;
-    font-size:15px;
-    background-color: var(--light-gray);
-    margin:1.25rem;
-    /* to make it center */
-    display:flex;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    align-items:center;
-    justify-content:center;
-    /* 100 percent but leaving 1px gap */
-    height:calc(50vh + 1px);
-
+    background-color: hsl(212, 45%, 89%);
 }
+
 
 .container{
-    background-color: var(--white);
-    border-radius: 0.625rem;
-    padding:1.25rem;
-    box-shadow:5px 5px 5px rgba(0,0,0,0.05);
-    margin-top: 16rem;
-    width:300px;
-    height:520px;
-
+    width: 230px;
+    height: 385px;
+    background-color: white;
+    padding: .5rem 1rem;
+    margin-top:auto;
+    margin-bottom: auto;
+    border-radius:16px;
 }
 
-img{
-    max-width:100%;
-
-}
 
 .container img{
-    border-radius:0.625rem ;
+    width: 100%;
+    border-radius:6px;
+    margin-top:5px;
 }
 
+
 .container h2{
-    color:var(--dark-blue);
-    text-align:center;
-    margin-left:3rem;
-    margin-right:3rem;
+    
+    font-size: 20px;
+    margin-top:12px;
+    margin-bottom:12px;
+    margin-left: 5px;
+    margin-right: 1px;
+    color:hsl(218, 44%, 22%);
+
 }
 
 .container p{
-    color:var(--grayish-blue);
-    text-align:center;
-    margin-top:1rem;
-    margin-left:3rem;
-    margin-right:3rem;
-
+    color:hsl(216, 15%, 48%);
+    font-size:15px;
 }
+
+.l1{
+    margin-left:7px;
+    margin-right:1px;
+}
+
+
+
+.l3{
+    margin-left:70px;
+    margin-right:1px;
+}
+
 
 .attribution{
-    font-size:11px;
-    margin-top:1rem;
+    font-size: 14px;
 }
 
-.attribution a{
-    color:hsl(228,45%,44%);
-}
-
-@media (min-width:500px){
-    .container{
-        width:400px;
-    }
-}
