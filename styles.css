@@ -31,7 +31,7 @@ body{
 
 .wrapper{
     background-color:var(--white);
-    height:490px;
+    height:450px;
     max-width: 90%;
     width:315px;
     border-radius:15px;
@@ -47,7 +47,7 @@ body{
 .image img{
     height:auto;
     width:80%;
-    max-width:280px;
+    max-width:290px;
     border-radius:15px;
     margin-top:10px;
     margin-bottom:9px;
